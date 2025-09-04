@@ -1,4 +1,4 @@
-package company.hr;
+package employee;
 
 public class Employee {
     public String name;
@@ -13,15 +13,9 @@ public class Employee {
         if (salary > 0) {
             this.salary = salary;
         } else {
-            throw new IllegalArgumentException("Salary must be greater than 0.");
+          System.out.println("El salario debe ser mayor que 0");
         }
     }
 
-    public String getRole() {
-        return role;
-    }
-
-    public void setRole(String role) {
-        this.role = role;
-    }
+   
 }
