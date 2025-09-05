@@ -1,4 +1,4 @@
-package employee;
+package Semana03.clase;
 
 public class Employee {
     public String name;
@@ -17,5 +17,11 @@ public class Employee {
         }
     }
 
-   
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
 }
