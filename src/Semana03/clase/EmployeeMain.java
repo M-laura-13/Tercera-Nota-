@@ -1,8 +1,6 @@
-package Semana03.main;
+package Semana03.clase;
 
-import Semana03.clase.Employee;
-
-public class Main {
+public class EmployeeMain {
    public static void main(String[] args) {
         Employee emp1 = new Employee();
         emp1.name = "Alicia";
