@@ -1,4 +1,4 @@
-package Semana05.obj;
+package unidad2.ejerciciosClase.Tarea;
 
 public class Student {
     String name;

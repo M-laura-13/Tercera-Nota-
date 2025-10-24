@@ -1,7 +1,7 @@
-package Semana06;
+package unidad3;
 
 import java.io.*;
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.List;
 
 class Book {
@@ -28,7 +28,7 @@ class Book {
     }
     @Override
     public String toString(){
-        return String.format("Title: | Author: | Price: |", title, author, price)
+        return String.format("Title: | Author: | Price: |", title, author, price);
     }
 }
 
@@ -44,6 +44,6 @@ class Book {
                 System.out.println("Books saved successfully to" + FILE_NAME);
             } catch (IOException e) {
                System.out.println("Error saving books:" + e.getMessage());
-            } finally 
+            } 
         }
     }
