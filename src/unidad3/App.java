@@ -1,6 +1,6 @@
 package unidad3;
 import unidad3.models.* vehiculo;
-import  models.Vehiculo;    
+import models.Vehiculo;    
 import models.Carro;
 import models.Moto;
 
